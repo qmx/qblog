@@ -69,3 +69,6 @@ Cucumber::Rake::Task.new do |t|
   t.rcov_opts << '--sort' << 'coverage' << '--sort-reverse'
   t.rcov_opts << '--exclude' << '.gem,.rvm,.bundle,spec,features,examples'
 end
+
+Dir["lib/tasks/**/*.rake"].sort.each {|task| load task}
+
