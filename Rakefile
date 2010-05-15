@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'bundler'
 
-Bundler.setup(:runtime, :test)
+Bundler.setup(:default, :test)
 require File.expand_path(File.join('..', 'lib', 'qblog'), __FILE__)
 Bundler.require(:test)
 require 'rake/gempackagetask'
