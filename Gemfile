@@ -5,6 +5,7 @@ gem "activerecord"
 gem "sinatra"
 gem "sinatra-content-for"
 gem "haml"
+gem "rdiscount"
 
 gem "pg"
 gem "sqlite3-ruby"
