@@ -24,10 +24,6 @@ dependencies:
     group: 
     - :default
     version: ">= 0"
-  autotest-fsevent: 
-    group: 
-    - :development
-    version: ">= 0"
   autotest: 
     group: 
     - :development
@@ -35,10 +31,6 @@ dependencies:
   rspec: 
     group: 
     - :test
-    version: ">= 0"
-  autotest-growl: 
-    group: 
-    - :development
     version: ">= 0"
   database_cleaner: 
     group: 
@@ -77,12 +69,6 @@ specs:
     version: 2.3.5
 - autotest: 
     version: 4.2.10
-- sys-uname: 
-    version: 0.8.4
-- autotest-fsevent: 
-    version: 0.2.2
-- autotest-growl: 
-    version: 0.2.4
 - builder: 
     version: 2.1.2
 - diff-lcs: 
@@ -121,7 +107,7 @@ specs:
     version: "0.2"
 - sqlite3-ruby: 
     version: 1.2.5
-hash: df030bed6bb985795cd2bbab2be23e9bfa18e500
+hash: 68530a09dc8044f0286ddc7886245cbca9a53cec
 sources: 
 - Rubygems: 
     uri: http://gemcutter.org
