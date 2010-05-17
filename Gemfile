@@ -20,8 +20,6 @@ end
 
 group :development do
 	gem "autotest"
-	gem "autotest-fsevent"
-	gem "autotest-growl"
 	gem "shotgun"
 end
 
