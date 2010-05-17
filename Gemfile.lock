@@ -1,0 +1,127 @@
+--- 
+dependencies: 
+  sinatra-content-for: 
+    group: 
+    - :default
+    version: ">= 0"
+  pg: 
+    group: 
+    - :default
+    version: ">= 0"
+  activerecord: 
+    group: 
+    - :default
+    version: ">= 0"
+  haml: 
+    group: 
+    - :default
+    version: ">= 0"
+  rake: 
+    group: 
+    - :default
+    version: ">= 0"
+  sqlite3-ruby: 
+    group: 
+    - :default
+    version: ">= 0"
+  autotest-fsevent: 
+    group: 
+    - :development
+    version: ">= 0"
+  autotest: 
+    group: 
+    - :development
+    version: ">= 0"
+  rspec: 
+    group: 
+    - :test
+    version: ">= 0"
+  autotest-growl: 
+    group: 
+    - :development
+    version: ">= 0"
+  database_cleaner: 
+    group: 
+    - :test
+    version: ">= 0"
+  rcov: 
+    group: 
+    - :test
+    version: ">= 0"
+  sinatra: 
+    group: 
+    - :default
+    version: ">= 0"
+  factory_girl: 
+    group: 
+    - :test
+    version: ">= 0"
+  cucumber: 
+    group: 
+    - :test
+    version: ">= 0"
+  rdiscount: 
+    group: 
+    - :default
+    version: ">= 0"
+  shotgun: 
+    group: 
+    - :development
+    version: ">= 0"
+specs: 
+- rake: 
+    version: 0.8.7
+- activesupport: 
+    version: 2.3.5
+- activerecord: 
+    version: 2.3.5
+- autotest: 
+    version: 4.2.10
+- sys-uname: 
+    version: 0.8.4
+- autotest-fsevent: 
+    version: 0.2.2
+- autotest-growl: 
+    version: 0.2.4
+- builder: 
+    version: 2.1.2
+- diff-lcs: 
+    version: 1.1.2
+- trollop: 
+    version: 1.16.2
+- gherkin: 
+    version: 1.0.26
+- json_pure: 
+    version: 1.4.3
+- term-ansicolor: 
+    version: 1.0.5
+- cucumber: 
+    version: 0.7.2
+- database_cleaner: 
+    version: 0.5.2
+- factory_girl: 
+    version: 1.2.4
+- haml: 
+    version: 3.0.4
+- pg: 
+    version: 0.9.0
+- rack: 
+    version: 1.1.0
+- rcov: 
+    version: 0.9.8
+- rdiscount: 
+    version: 1.6.3.2
+- rspec: 
+    version: 1.3.0
+- shotgun: 
+    version: "0.6"
+- sinatra: 
+    version: "1.0"
+- sinatra-content-for: 
+    version: "0.2"
+- sqlite3-ruby: 
+    version: 1.2.5
+hash: df030bed6bb985795cd2bbab2be23e9bfa18e500
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org
