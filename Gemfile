@@ -1,8 +1,9 @@
 source "http://gemcutter.org"
 
 gem "rake"
-gem "sinatra"
 gem "activerecord"
+gem "sinatra"
+gem "sinatra-content-for"
 gem "haml"
 
 gem "pg"
