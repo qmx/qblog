@@ -1,9 +1,8 @@
 require 'rubygems'
 require 'bundler'
+Bundler.setup
+require File.expand_path(File.join('..', 'init'), __FILE__)
 
-Bundler.setup(:default, :test)
-require File.expand_path(File.join('..', 'lib', 'qblog'), __FILE__)
-Bundler.require(:test)
 require 'rake/gempackagetask'
 require 'rubygems/specification'
 require 'date'
