@@ -1,6 +1,7 @@
 source "http://gemcutter.org"
 
 gem "rake"
+gem "bundler"
 gem "activerecord"
 gem "sinatra"
 gem "sinatra-content-for"
